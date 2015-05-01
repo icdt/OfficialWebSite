@@ -39,7 +39,7 @@ app.factory('Content', function () {
 
     return {
 
-        logo: 'img/logo.png',
+        logo:'img/icdtlogo.png',
         service: [{
             img: '',
             title:'App開發',
@@ -58,23 +58,6 @@ app.factory('Content', function () {
             content: ''
         }]
 
-
-
-
-
-
-
-
-
-
     };
-
-
-
-
-
-
-
-
 
 });
