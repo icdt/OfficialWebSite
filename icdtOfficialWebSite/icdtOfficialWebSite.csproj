@@ -113,7 +113,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App\css\" />
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
@@ -158,6 +157,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App\css\common.css" />
     <Content Include="App\img\icdtlogo.png" />
     <Content Include="App\index.html" />
     <Content Include="App\js\app.js" />

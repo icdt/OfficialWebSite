@@ -1,5 +1,5 @@
 ﻿
-var app = angular.module('demo', ['ui.router', 'restangular', 'ngToast']);
+var app = angular.module('icdt', ['ui.router']);
 
 app.run(['$rootScope', '$state', '$stateParams',
         function ($rootScope, $state, $stateParams) {
