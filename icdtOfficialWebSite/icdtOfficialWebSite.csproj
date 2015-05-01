@@ -158,7 +158,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App\css\common.css" />
+    <Content Include="App\img\applogo.png" />
     <Content Include="App\img\icdtlogo.png" />
+    <Content Include="App\img\planlogo.png" />
+    <Content Include="App\img\systemlogo.png" />
+    <Content Include="App\img\websitelogo.png" />
     <Content Include="App\index.html" />
     <Content Include="App\js\app.js" />
     <Content Include="Areas\HelpPage\HelpPage.css" />

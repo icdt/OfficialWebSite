@@ -41,20 +41,20 @@ app.factory('Content', function () {
 
         logo:'img/icdtlogo.png',
         service: [{
-            img: '',
-            title:'App開發',
+            img: 'img/websitelogo.png',
+            title:'網站開發',
             content: ''
         }, {
-            img: '',
+            img: 'img/systemlogo.png',
             title: '系統整合',
             content: ''
         }, {
-            img: '',
-            title: '',
+            img: 'img/applogo.png',
+            title: 'APP開發',
             content: ''
         }, {
-            img: '',
-            title: '',
+            img: 'img/planlogo.png',
+            title: '行銷企劃',
             content: ''
         }]
 
