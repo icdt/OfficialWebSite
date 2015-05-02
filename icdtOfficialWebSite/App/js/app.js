@@ -38,6 +38,10 @@ app.controller('HomeCtrl', ['$scope', 'Content', function($scope, Content){
 app.factory('Content', function () {
 
     return {
+        rightBackImg: 'img/menuRightBack.jpg',
+        menu:{
+            
+        },
 
         logo:'img/icdtlogo.png',
         service: [{

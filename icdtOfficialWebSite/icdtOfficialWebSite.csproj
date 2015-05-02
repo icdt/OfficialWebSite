@@ -158,6 +158,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App\css\common.css" />
+    <Content Include="App\img\menuRightBackgroundImg.jpg" />
     <Content Include="App\img\applogo.png" />
     <Content Include="App\img\icdtlogo.png" />
     <Content Include="App\img\planlogo.png" />
