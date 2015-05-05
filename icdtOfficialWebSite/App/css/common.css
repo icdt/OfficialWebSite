@@ -4,6 +4,14 @@
 .horizontalCenter {
     text-align: center;
 }
+.container{
+    padding-left:200px;
+
+    padding-right:200px;
+}
+.row {
+    margin-bottom:20px;
+}
 
 .menu_outer {
     position: fixed;
@@ -46,5 +54,21 @@
 
 .menu_left li:hover{
 background-color: rgb(94, 214, 99);
+
+}
+
+.project_outer{
+   
+
+
+}
+.project_inner {
+  
+  position: absolute;
+  
+  top: 20px;
+  left: 50px;
+  width: 10px;
+  height: 10px;
 
 }

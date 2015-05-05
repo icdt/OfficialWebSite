@@ -158,9 +158,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App\css\common.css" />
+    <Content Include="App\img\contactuslogo.PNG" />
+    <Content Include="App\img\customerwordlogo.png" />
     <Content Include="App\img\menuRightBackgroundImg.jpg" />
     <Content Include="App\img\applogo.png" />
     <Content Include="App\img\icdtlogo.png" />
+    <Content Include="App\img\p1.PNG" />
+    <Content Include="App\img\p2.PNG" />
+    <Content Include="App\img\p3.PNG" />
+    <Content Include="App\img\p4.PNG" />
+    <Content Include="App\img\p5.PNG" />
+    <Content Include="App\img\p6.PNG" />
+    <Content Include="App\img\p7.PNG" />
+    <Content Include="App\img\p8.PNG" />
     <Content Include="App\img\planlogo.png" />
     <Content Include="App\img\systemlogo.png" />
     <Content Include="App\img\websitelogo.png" />
