@@ -72,3 +72,14 @@ background-color: rgb(94, 214, 99);
   height: 10px;
 
 }
+
+.font_blue {
+    color: rgb(85, 111, 186);
+}
+.product_image {
+    margin-left: -15px;
+}
+
+.product_card {
+    text-align: center;
+}

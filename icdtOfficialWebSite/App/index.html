@@ -3,8 +3,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/reset.css" rel="stylesheet" />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/common.css" rel="stylesheet" />
 
     <script src="//code.jquery.com/jquery.min.js"></script>
@@ -44,7 +44,7 @@
 
         <div class="container">
             <div class="row clearfix horizontalCenter">
-                <img src="{{vm.logo}}" alt="Alternate Text" />
+                <img src="{{vm.logo}}" alt="Alternate Text" width="300px" />
             </div>
 
             <div class="row clearfix">
@@ -57,7 +57,7 @@
             <div class="row clearfix">
                 <div class="col-md-3 column">
                     <div align="center">
-                        <img alt="128x128" src="{{vm.service[0].img}}" class="img-circle" />
+                        <img alt="128x128" src="{{vm.service[0].img}}" class="img-circle"/>
                     </div>
 
                     <h3 class="text-center">
@@ -222,61 +222,46 @@
             </div>
             <div class=" row clearfix">
 
-                <div class="col-md-3 column">
-                    <img alt="140x140" src="{{vm.project[0].img}}" width="220px" height="220px" />
-                    <div>
-                        <label class="col-lg-8 control-label">{{vm.project[0].title}}</label>
-                    </div>
+                <div class="col-md-3 column product_card">
+                    <img alt="140x140" src="{{vm.project[0].img}}" width="200px" height="200px" class="product_image" />
+                    <h4 class="font_blue">{{vm.project[0].title}}</h4>
                 </div>
-                <div class="col-md-3 column">
-                    <img alt="140x140" src="{{vm.project[1].img}}" width="220px" height="220px" />
-                    <div>
-                        <label class="col-lg-8 control-label">{{vm.project[1].title}}</label>
-                    </div>
+                <div class="col-md-3 column product_card">
+                    <img alt=" 140x140" src="{{vm.project[1].img}}" width="200px" height="200px" class="product_image" />
+                    <h4 class="font_blue">{{vm.project[1].title}}</h4>
+
                 </div>
-                <div class="col-md-3 column">
-                    <img alt="140x140" src="{{vm.project[2].img}}" width="220px" height="220px" />
-                    <div>
-                        <label class="col-lg-8 control-label">{{vm.project[2].title}}</label>
-                    </div>
+                <div class="col-md-3 column product_card">
+                    <img alt="140x140" src="{{vm.project[2].img}}" width="200px" height="200px" class="product_image" />
+                    <h4 class="font_blue">{{vm.project[2].title}}</h4>
                 </div>
-                <div class="col-md-3 column">
-                    <img alt="140x140" src="{{vm.project[3].img}}" width="220px" height="220px" />
-                    <div>
-                        <label class="col-lg-8 control-label">{{vm.project[3].title}}</label>
-                    </div>
+                <div class="col-md-3 column product_card">
+                    <img alt="140x140" src="{{vm.project[3].img}}" width="200px" height="200px" class="product_image" />
+                    <h4 class="font_blue">{{vm.project[3].title}}</h4>
                 </div>
             </div>
             <div class="row clearfix">
-                <div class="col-md-3 column">
-                    <img alt="140x140" src="{{vm.project[4].img}}" width="220px" height="220px" />
-                    <div>
-                        <label class="col-lg-8 control-label">{{vm.project[4].title}}</label>
-                    </div>
+                <div class="col-md-3 column product_card">
+                    <img alt="140x140" src="{{vm.project[4].img}}" width="200px" height="200px" class="product_image" />
+                    <h4 class="font_blue">{{vm.project[4].title}}</h4>
                 </div>
-                <div class="col-md-3 column">
-                    <img alt="140x140" src="{{vm.project[5].img}}" width="220px" height="220px" />
-                    <div>
-                        <label class="col-lg-8 control-label">{{vm.project[5].title}}</label>
-                    </div>
+                <div class="col-md-3 column product_card">
+                    <img alt="140x140" src="{{vm.project[5].img}}" width="200px" height="200px" class="product_image" />
+                    <h4 class="font_blue">{{vm.project[5].title}}</h4>
                 </div>
-                <div class="col-md-3 column">
-                    <img alt="140x140" src="{{vm.project[6].img}}" width="220px" height="220px" />
-                    <div>
-                        <label class="col-lg-8 control-label">{{vm.project[6].title}}</label>
-                    </div>
+                <div class="col-md-3 column product_card">
+                    <img alt="140x140" src="{{vm.project[6].img}}" width="200px" height="200px" class="product_image" />
+                    <h4 class="font_blue">{{vm.project[6].title}}</h4>
                 </div>
-                <div class="col-md-3 column">
-                    <img alt="140x140" src="{{vm.project[7].img}}" width="220px" height="220px" />
-                    <div>
-                        <label class="col-lg-8 control-label">{{vm.project[7].title}}</label>
-                    </div>
+                <div class="col-md-3 column product_card">
+                    <img alt="140x140" src="{{vm.project[7].img}}" width="200px" height="200px" class="product_image" />
+                    <h4 class="font_blue">{{vm.project[7].title}}</h4>
                 </div>
             </div>
            
             <div class="row clearfix">
                 <div class="col-md-12 column">
-                    <img src="{{vm.customerwordlogo}}"  width="820px"/>
+                    <img src="{{vm.customerwordlogo}}" width="800px" class="product_image" />
                 </div>
             </div>
             
@@ -308,13 +293,13 @@
                             </div>
                             <div class="form-group">
                                 <label for="inputContents" class="col-lg-2 control-label">內容</label>
-                                <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="inputContents"/>
+                                <div class="col-sm-10" style="height:300px;">
+                                    <textarea class="form-control" cols="35" rows="7"></textarea>
                                 </div>
                             </div>
                            
                             <div class="form-group">
-                                <div class="col-sm-offset-2 col-sm-10">
+                                <div class="col-sm-offset-2 col-sm-2">
                                     <button type="submit" class="btn btn-default">送 出</button>
                                 </div>
                             </div>
