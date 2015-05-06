@@ -1,6 +1,9 @@
 ﻿
 var app = angular.module('icdt', ['ui.router']);
 
+
+
+
 app.run(['$rootScope', '$state', '$stateParams',
         function ($rootScope, $state, $stateParams) {
 
@@ -33,6 +36,10 @@ app.controller('HomeCtrl', ['$scope', 'Content', function($scope, Content){
 
 
 }]);
+
+
+
+
 
 
 app.factory('Content', function () {
@@ -102,4 +109,52 @@ app.factory('Content', function () {
 
     };
 
+
+});
+
+
+
+
+app.directive('ngSideMenu', function () {
+    return {
+        restrict: 'AE',
+        link: function (scope, elem, attrs) {
+
+            $(elem).click(function () {
+
+
+
+                var rrleft = $(elem).css('left');
+                //console.log(rrleft);
+
+                if (rrleft == "0px") {
+
+                    $(elem).animate({
+                        left: '-=155',
+                        top: ''
+                    }, 1000, function () {
+                        // Animation complete.
+                    });
+
+
+                } else {
+
+                    $(elem).animate({
+                        left: '+=155',
+                        top: ''
+                    }, 1000, function () {
+                        // Animation complete.
+                    });
+
+                }
+                
+
+
+
+
+               
+            });
+
+        }
+    };
 });
