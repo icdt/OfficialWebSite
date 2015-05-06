@@ -14,7 +14,7 @@
 }
 
 .menu_outer {
-    position: absolute;
+    position: fixed;
     background-color: rgb(85, 111, 186);
     left:-155px;
     z-index:999;
