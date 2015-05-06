@@ -67,7 +67,7 @@ app.factory('Content', function () {
             content: ''
         }, {
             img: 'img/planlogo.png',
-            title: '行銷企劃',
+            title: '網路行銷',
             content: ''
         }],
         project: [{

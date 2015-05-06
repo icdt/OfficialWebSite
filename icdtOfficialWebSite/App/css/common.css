@@ -59,6 +59,7 @@ background-color: rgb(94, 214, 99);
 
 .font_blue {
     color: rgb(85, 111, 186);
+    font-family:"Microsoft JhengHei";
 }
 .product_image {
     margin-left: -15px;
@@ -68,11 +69,14 @@ background-color: rgb(94, 214, 99);
     text-align: center;
 }
 
-.test{
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  width: 50px;
-  height: 50px;
-  background-color: red
+.sublogo_title{
+
+    margin-top:10px;
+    margin-bottom:10px;
+    color: rgb(85, 111, 186);
+    font-family:"Microsoft JhengHei";
+    font-size: 26px;
+    font-weight:bold;
+    text-align: center;
+    
 }
