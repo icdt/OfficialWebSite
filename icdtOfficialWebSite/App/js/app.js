@@ -55,7 +55,7 @@ app.factory('Content', function () {
         contactuslogo: 'img/contactuslogo.png',
         service: [{
             img: 'img/websitelogo.png',
-            title:'網站開發',
+            title: '系統設計開發',
             content: ''
         }, {
             img: 'img/systemlogo.png',
@@ -63,11 +63,11 @@ app.factory('Content', function () {
             content: ''
         }, {
             img: 'img/applogo.png',
-            title: 'APP開發',
+            title: '技術服務',
             content: ''
         }, {
             img: 'img/planlogo.png',
-            title: '網路行銷',
+            title: '產品代理',
             content: ''
         }],
         project: [{
