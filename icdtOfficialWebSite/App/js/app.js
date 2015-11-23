@@ -29,12 +29,28 @@ function ($stateProvider, $urlRouterProvider, $httpProvider) {
 
 }]);
 
-app.controller('HomeCtrl', ['$scope', 'Content', function($scope, Content){
+app.controller('HomeCtrl', ['$scope', 'Content', '$http', function ($scope, Content, $http) {
 
 
     $scope.vm = Content;
+    $scope.vm.Message = {};
 
+    $scope.vm.save = function () {
+        debugger;
+        $scope.account_form.submitted = true;
 
+        if ($scope.account_form.$valid) {
+            $scope.account_form.submitted = false;
+            $http.post("/api/Message", $scope.vm.Message).success(function () {
+                alert("敝公司,將安排專員為您服務");
+                $scope.vm.Message = {};
+            }).error(function () {
+
+            });
+        }
+
+     
+    };
 }]);
 
 
@@ -71,37 +87,37 @@ app.factory('Content', function () {
             content: ''
         }],
         project: [{
-            img: 'img/p1.png',
-            title: 'LVGB2CWebSite',
+            img: 'img/p1.jpg',
+            title: 'Apple',
             content: ''
         }, {
-            img: 'img/p2.png',
-            title: 'LVGB2BWebSite',
+            img: 'img/p2.jpg',
+            title: '北京普林斯頓',
             content: ''
         }, {
-            img: 'img/p3.png',
-            title: 'LVGPOS',
-            content: ''
-        }, {
-            img: 'img/p4.png',
+            img: 'img/p3.jpg',
             title: '右昌醫院',
+            content: ''
+        }, {
+            img: 'img/p4.jpg',
+            title: '腦波遊戲App',
             content: ''
         },
         {
-            img: 'img/p5.png',
+            img: 'img/p5.jpg',
+            title: '婚禮櫥窗',
+            content: ''
+        }, {
+            img: 'img/p6.jpg',
             title: '佳音牙醫',
             content: ''
         }, {
-            img: 'img/p6.png',
-            title: '濱海SEO',
+            img: 'img/p7.jpg',
+            title: '信全航空',
             content: ''
         }, {
-            img: 'img/p7.png',
-            title: '腦波遊戲APP',
-            content: ''
-        }, {
-            img: 'img/p8.png',
-            title: '熊熊超外送',
+            img: 'img/p8.jpg',
+            title: '集視',
             content: ''
         
         }]

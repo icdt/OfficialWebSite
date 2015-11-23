@@ -1,82 +1,110 @@
 ﻿body {
+    background-image: url('../img/upImg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    background-attachment: fixed;
+    background-color: #fff;
 }
 
 .horizontalCenter {
     text-align: center;
 }
-.container{
-    padding-left:200px;
 
-    padding-right:200px;
+@media all and (max-width: 1300px) {
+    .container {
+        margin-left: 70px;
+    }
 }
+
 .row {
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
 .menu_outer {
     position: fixed;
     background-color: rgb(85, 111, 186);
-    left:-155px;
-    z-index:999;
+    left: -155px;
+    z-index: 999;
     height: 100%;
     -moz-box-shadow: 4px 4px 12px -2px rgba(20%,20%,40%,0.5);
     -webkit-box-shadow: 4px 4px 12px -2px rgba(20%,20%,40%,0.5);
     box-shadow: 4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+    background-image: url('../img/leftImg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
 }
 
 .menu_left {
     float: left;
     height: 100%;
-     margin-top: 40px;
+    margin-top: 40px;
 }
 
 .menu_right {
     float: left;
     height: 100%;
-    width:70px;
+    width: 70px;
     background-image: url(../../App/img/menuicdtlogo.png);
-    background-repeat:round;
+    background-repeat: round;
 }
 
 
-.menu_left li{
-  color: white;
-  padding: 10px 30px 10px 30px;
-  font-size: 18px;
-  text-align: center;
-  text-decoration: none;
+.menu_left li {
+    color: white;
+    padding: 10px 30px 10px 30px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
 }
 
-.menu_left li a{
-  color: white;
-  text-decoration: none;
-}
+    .menu_left li a {
+        color: white;
+        text-decoration: none;
+    }
 
-.menu_left li:hover{
-background-color: rgb(94, 214, 99);
-
-}
+    .menu_left li:hover {
+        background-color: rgb(94, 214, 99);
+    }
 
 .font_blue {
     color: rgb(85, 111, 186);
-    font-family:"Microsoft JhengHei";
+    font-family: "Microsoft JhengHei";
 }
+
 .product_image {
-    margin-left: -15px;
+    /*margin-left: -15px;*/
+    width: 105%;
+    height: auto;
+    max-width: 1170px;
 }
 
 .product_card {
     text-align: center;
 }
 
-.sublogo_title{
+    .product_card img {
+        width: 292px;
+        height: 292px;
+        /*width:100%;
+   height:auto;*/
+    }
 
-    margin-top:10px;
-    margin-bottom:10px;
+.sublogo_title {
+    margin-top: 10px;
+    margin-bottom: 10px;
     color: rgb(85, 111, 186);
-    font-family:"Microsoft JhengHei";
+    font-family: "Microsoft JhengHei";
     font-size: 26px;
-    font-weight:bold;
+    font-weight: bold;
     text-align: center;
-    
+}
+
+.contact_uus {
+    width: 400px;
+    height: auto;
+}
+.col-md-3 a{
+    text-decoration:none;
 }
