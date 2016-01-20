@@ -108,3 +108,28 @@
 .col-md-3 a{
     text-decoration:none;
 }
+.footer{
+    border-top:2px solid rgb(85, 111, 186);
+    clear:both;
+    padding:15px 0;
+    font-family: 'Microsoft JhengHei', sans-serif;
+}
+
+    .footer .line {
+        width: 260px;
+        height:1px;
+        background-color: rgb(85, 111, 186);
+        margin:10px 0;
+    }
+    .footer .copy {
+        color: rgb(85, 111, 186);
+        font-size: 13px;
+    }
+
+    .footer .col-md-5 {
+        color: rgb(85, 111, 186);
+        line-height: 24px;
+        padding-top: 5px;
+        border-left: 1px solid rgb(85, 111, 186);
+        height: 115px;
+    }

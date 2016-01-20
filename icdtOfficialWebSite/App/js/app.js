@@ -42,7 +42,7 @@ app.controller('HomeCtrl', ['$scope', 'Content', '$http', function ($scope, Cont
         if ($scope.account_form.$valid) {
             $scope.account_form.submitted = false;
             $http.post("/api/Message", $scope.vm.Message).success(function () {
-                alert("敝公司,將安排專員為您服務");
+                alert("感謝您於資雲數位科技官方網站留言,本司專員將儘快回復或與您聯繫");
                 $scope.vm.Message = {};
             }).error(function () {
 

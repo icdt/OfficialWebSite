@@ -183,21 +183,23 @@
     <Content Include="App\css\reset.css" />
     <Content Include="App\img\contactuslogo.PNG" />
     <Content Include="App\img\customerwordlogo.png" />
+    <Content Include="App\img\icdtfooterlogo.png" />
     <Content Include="App\img\icdtlogo2.png" />
     <Content Include="App\img\leftImg.jpg" />
     <Content Include="App\img\menuicdtlogo.png" />
     <Content Include="App\img\menuRightBackgroundImg.jpg" />
     <Content Include="App\img\applogo.png" />
     <Content Include="App\img\icdtlogo.png" />
-    <Content Include="App\img\p1.PNG" />
-    <Content Include="App\img\p2.PNG" />
-    <Content Include="App\img\p3.PNG" />
-    <Content Include="App\img\p4.PNG" />
-    <Content Include="App\img\p5.PNG" />
-    <Content Include="App\img\p6.PNG" />
-    <Content Include="App\img\p7.PNG" />
-    <Content Include="App\img\p8.PNG" />
+    <Content Include="App\img\p1.jpg" />
+    <Content Include="App\img\p2.jpg" />
+    <Content Include="App\img\p3.jpg" />
+    <Content Include="App\img\p4.jpg" />
+    <Content Include="App\img\p5.jpg" />
+    <Content Include="App\img\p6.jpg" />
+    <Content Include="App\img\p7.jpg" />
+    <Content Include="App\img\p8.jpg" />
     <Content Include="App\img\planlogo.png" />
+    <Content Include="App\img\QRCODE.png" />
     <Content Include="App\img\systemlogo.png" />
     <Content Include="App\img\upImg.jpg" />
     <Content Include="App\img\websitelogo.png" />
@@ -236,8 +238,13 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="Properties\PublishProfiles\ICDT.pubxml" />
     <None Include="Properties\PublishProfiles\icdthome - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\icdthome - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\infocloud - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\infocloud - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\topsales - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\topsales - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -247,7 +254,9 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
